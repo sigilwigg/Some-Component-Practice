@@ -1,0 +1,25 @@
+.folder-icon {
+    position: relative;
+    width: 0;
+    height: 0;
+    background: chartreuse;
+}
+
+.folder-top {
+    position: absolute;
+    width: 11px;
+    height: 16px;
+    top: 0px;
+    border-radius: 2px;
+    background: #fdf0b7;
+}
+
+.folder-body {
+    position: absolute;
+    position: absolute;
+    width: 24px;
+    height: 16px;
+    top: 3px;
+    border-radius: 2px;
+    background: #fdf0b7;
+}

@@ -1,0 +1,39 @@
+.loading-dots {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .25);
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+    animation: loading 2s ease-in-out .1s infinite;
+}
+.loading-dots::before {
+    display: block;
+    content: "";
+    position: relative;
+    right: 30px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .25);
+}
+.loading-dots::after {
+    display: block;
+    content: "";
+    position: relative;
+    top: -100%;
+    left: 30px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .25);
+}
+
+/* ========== animations ========== */
+@keyframes loading {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}

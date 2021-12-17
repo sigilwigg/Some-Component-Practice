@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- #region config -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Practice</title>
+    <!-- #endregion -->
+    <!-- #region stylesheets -->
+    <link rel="stylesheet" href="css/_init.css">
+    <link rel="stylesheet" href="css/_root.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/med-widget.css">
+    <link rel="stylesheet" href="css/phone/main.css">
+    <!-- #endregion -->
+    <!-- #region dependancies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- #endregion -->
+</head>
+
+<body>
+    <section class="widget-holder-medium">
+
+        <div id="notes-widget" class="med-widget">
+        </div>
+
+        <div id="music-widget" class="med-widget"></div>
+
+    </section>
+
+    <section class="widget-holder-medium">
+
+        <div id="phone"></div>
+
+    </section>
+
+    <!-- #region scripts -->
+    <script src="http://unpkg.com/axios/dist/axios.js"></script>
+    <script src="js/classes/API.js"></script>
+    <script src="js/classes/CurrentUser.js"></script>
+    <script src="js/load-components.js"></script>
+    <script src="js/phone/phone.js
+    "></script>
+    <!-- #endregion -->
+</body>
+
+</html>
