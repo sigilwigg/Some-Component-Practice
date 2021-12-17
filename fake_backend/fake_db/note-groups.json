@@ -1,0 +1,22 @@
+{
+    "1": {
+        "id": 1,
+        "groupName": "My Poems",
+        "notesCount": 30
+    },
+    "2": {
+        "id": 2,
+        "groupName": "Love Letters",
+        "notesCount": 41
+    },
+    "3": {
+        "id": 3,
+        "groupName": "More Love Letters",
+        "notesCount": 34
+    },
+    "4": {
+        "id": 4,
+        "groupName": "Continuous Love Letters",
+        "notesCount": 100
+    }
+}

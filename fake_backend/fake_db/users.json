@@ -1,0 +1,52 @@
+{
+    "data": {
+        "0": {
+            "id": 0,
+            "email": "admin@getyodlr.com",
+            "name": "admin",
+            "isAdmin": true,
+            "password": "password",
+            "state": "active"
+        },
+        "1": {
+            "id": 1,
+            "email": "kyle@getyodlr.com",
+            "name": "Kyle",
+            "isAdmin": true,
+            "password": "password",
+            "state": "active"
+        },
+        "2": {
+            "id": 2,
+            "email": "jane@getyodlr.com",
+            "name": "Jane",
+            "isAdmin": false,
+            "password": "password",
+            "state": "active"
+        },
+        "3": {
+            "id": 3,
+            "email": "lilly@getyodlr.com",
+            "name": "Lilly",
+            "isAdmin": false,
+            "password": "password",
+            "state": "pending"
+        },
+        "4": {
+            "id": 4,
+            "email": "fred@getyodlr.com",
+            "name": "Fred",
+            "isAdmin": false,
+            "password": "password",
+            "state": "pending"
+        },
+        "5": {
+            "id": 5,
+            "email": "alex@getyodlr.com",
+            "name": "Alexandra",
+            "isAdmin": false,
+            "password": "password",
+            "state": "pending"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "1": {
+        "id": 1,
+        "artist": "Dua Lipa",
+        "song": "Cool",
+        "imgUrl": "../../images/artists/dua-lipa.jpg"
+    },
+    "2": {
+        "id": 2,
+        "artist": "Aretha Franklin",
+        "song": "RESPECT",
+        "imgUrl": "../../images/artists/aretha-franklin.jpg"
+    },
+    "3": {
+        "id": 3,
+        "artist": "Michael Buble",
+        "song": "Feelin' Good",
+        "imgUrl": "../../images/artists/michael-buble.jpg"
+    },
+    "4": {
+        "id": 4,
+        "artist": "Stromae",
+        "song": "Tous Les Memes",
+        "imgUrl": "../../images/artists/stromae.jpg"
+    }
+}
